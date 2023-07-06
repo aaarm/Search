@@ -1,0 +1,103 @@
+
+
+html{
+    height: 100%;
+    min-height: 100%;
+    padding: 0;
+    background-color: rgb(32, 33, 36);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5ch;
+}
+
+body{
+    margin: 0;
+}
+
+header > nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(60, 67, 67);
+    align-items: center;
+    height: 136px;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+ul>a, ul>img{
+    margin: 0px 10px;
+    text-decoration: 0;
+    color: white;
+    align-items: center;
+}
+
+table{
+    padding: 30px;
+    color: rgb(150, 155, 161);
+}
+
+thead{
+    font-size: small;
+    font: bold;
+}
+
+
+td>input, td>pre>input{
+    width: 566px;
+    height: 25px;
+    border: 1px solid rgb(105, 105, 105);
+    background-color: rgb(32, 33, 36);
+    border-radius: 2px;
+    color: rgb(150, 155, 161);
+}
+
+td>pre>input{
+    width: 259px;
+}
+
+td{
+    font-size: small;
+    padding: 5px 8px;
+}
+button{
+    width: 125px;
+    height: 33px;
+    background-color: rgb(153, 204, 255);
+    border: 0;
+    border-radius: 3px;
+}
+
+.smaller> input{
+    width: 274px;
+}
+
+.header{
+    font-size: 2.5ch;
+    color: white;
+}
+
+footer{
+    background-color: rgb(22, 22, 22) ;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 100px;
+}
+
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(174, 203, 249);
+    border: 1px solid rgb(47, 91, 183);
+}
+
+input:focus{
+    outline: 1px solid rgb(174, 203, 249);
+}
